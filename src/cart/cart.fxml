@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Priority?>
 
-<VBox xmlns="http://javafx.com/javafx/23.0.1"
+<VBox xmlns="http://javafx.com/javafx/21.0.7"
       xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="cart.CartController"
       stylesheets="@../application/styles.css"
