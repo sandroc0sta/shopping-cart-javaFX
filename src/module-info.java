@@ -11,6 +11,8 @@ module ShoppingCartFX {
 	requires javafx.base;
 	requires java.sql;
 	requires org.apache.derby.server;
+	requires org.apache.derby.tools;
+	requires org.apache.derby.client;
 
     opens application to javafx.fxml;
     opens home to javafx.fxml;

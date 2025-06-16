@@ -17,17 +17,22 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/sandr/db-derby-10.17.1.0-bin/db-derby-10.17.1.0-bin/lib/derbyclient.jar">
+	<classpathentry kind="lib" path="lib/derbyclient.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/sandr/db-derby-10.17.1.0-bin/db-derby-10.17.1.0-bin/lib/derbynet.jar">
+	<classpathentry kind="lib" path="lib/derbynet.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/sandr/db-derby-10.17.1.0-bin/db-derby-10.17.1.0-bin/lib/derbytools.jar">
+	<classpathentry kind="lib" path="lib/derbytools.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/derbyshared.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>

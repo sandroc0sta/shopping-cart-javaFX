@@ -15,5 +15,5 @@
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="application.Main"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="ShoppingCartFX"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ShoppingCartFX"/>
-    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="--module-path &quot;C:\Users\sandr\JavaFX\javafx-sdk-24\lib&quot; --add-modules javafx.controls,javafx.fxml"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="--module-path JavaFX --add-modules javafx.controls,javafx.fxml -Djava.library.path=javafx-dlls"/>
 </launchConfiguration>
