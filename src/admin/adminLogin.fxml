@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import java.lang.String?>
+
+<BorderPane fx:id="contentPane" prefHeight="400" prefWidth="600" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.AdminLoginController" stylesheets="@../application/styles.css">
+
+  <center>
+    <VBox alignment="CENTER" spacing="20">
+      <padding>
+        <Insets bottom="20" left="20" right="20" top="40" />
+      </padding>
+      
+      <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Administrator Login" />
+      <Label style="-fx-font-size: 14px;" text="Geben Sie Administratoranmeldeinformationen ein:" />
+
+      <GridPane alignment="CENTER" hgap="10" vgap="10">
+        <padding>
+          <Insets bottom="10" left="10" right="10" top="10" />
+        </padding>
+
+
+        <Label text="Benutzername:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <TextField fx:id="userNameField" prefWidth="200" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+        <Label text="Kennwort:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <PasswordField fx:id="passwordField" prefWidth="200" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <columnConstraints>
+               <ColumnConstraints />
+               <ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+               <RowConstraints />
+               <RowConstraints />
+               <RowConstraints />
+            </rowConstraints>
+      </GridPane>
+
+     <Button fx:id="loginButton" maxWidth="100" onAction="#handleLogin" text="Login" styleClass= "interactionButtons"/>
+    </VBox>
+  </center>
+</BorderPane>

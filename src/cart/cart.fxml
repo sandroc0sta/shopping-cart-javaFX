@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Priority?>
+
+<VBox xmlns="http://javafx.com/javafx/23.0.1"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="cart.CartController"
+      stylesheets="@../application/styles.css"
+      spacing="10" fillWidth="true">
+
+    <ScrollPane fx:id="scrollPane"
+                fitToWidth="true"
+                VBox.vgrow="ALWAYS"
+                hbarPolicy="NEVER"
+                vbarPolicy="AS_NEEDED"
+                pannable="true">
+        <content>
+            <VBox fx:id="cartContent"
+                  alignment="TOP_CENTER"
+                  spacing="10"
+                  maxWidth="Infinity">
+                <padding>
+                    <Insets top="25.0" bottom="25.0" left="25.0" right="25.0" />
+                </padding>
+            </VBox>
+        </content>
+    </ScrollPane>
+
+    <HBox fx:id="totalBox"
+          alignment="CENTER"
+          spacing="20">
+          <padding>
+          	<Insets top="10.0" right="10.0" bottom="10.0" left="10.0"/>
+          </padding>
+      
+    </HBox>
+
+</VBox>
