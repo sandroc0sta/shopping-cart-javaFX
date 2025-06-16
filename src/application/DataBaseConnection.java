@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DataBaseConnection {
-	private static final String URL = "jdbc:derby://localhost:1527/C:/Users/sandr/db-derby-10.17.1.0-bin/db-derby-10.17.1.0-bin/bin/Database;create=false;";
+	private static final String URL = "jdbc:derby://localhost:1527/Database;create=false;";
 	private static final String USER = "SHOPPING_CART";
 	private static final String PASSWORD = " ";
 	private static Connection connection;

@@ -23,7 +23,7 @@ public class DataBaseServer {
                     System.err.println("Failed to start Derby Network Server: " + e.getMessage());
                 }
             }).start();
-            // Wait until the server is ready
+            
             waitForServerToStart();
         } catch (Exception e) {
             System.err.println("Failed to start Derby Network Server: " + e.getMessage());
@@ -31,11 +31,11 @@ public class DataBaseServer {
     }
 
     private static void waitForServerToStart() {
-        // Try connecting to the server every 500ms for 10 seconds (customize as needed)
+        
         int attempts = 0;
         while (attempts < 20) {
             try {
-                // Try to establish a simple connection
+                
             	Connection connection = DriverManager.getConnection("jdbc:derby://localhost:1527/C:/Users/sandr/db-derby-10.17.1.0-bin/db-derby-10.17.1.0-bin/bin/Database;create=false;");
                 if (connection != null) {
                     connection.close();
@@ -45,7 +45,7 @@ public class DataBaseServer {
             } catch (SQLException e) {
                 attempts++;
                 try {
-                    Thread.sleep(500); // Wait before retrying
+                    Thread.sleep(500); 
                 } catch (InterruptedException ex) {
                     ex.printStackTrace();
                 }
