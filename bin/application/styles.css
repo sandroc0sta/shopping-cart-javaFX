@@ -1,0 +1,114 @@
+#userOptions{
+	-fx-background-color: linear-gradient(to bottom, rgba(0,0,255,1), rgba(255,255,255,1));
+}
+
+.userButton {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 5;
+    -fx-padding: 10px;
+}
+
+.userButton:hover{
+	-fx-background-color: #0000001A;
+	    -fx-background-radius: 5;
+	    -fx-cursor: hand;
+}
+
+.interactionButtons {
+    -fx-background-radius: 5;
+    -fx-background-color: #3333FF;
+    -fx-text-fill: white;
+    -fx-font-weight : bold;
+}
+
+.interactionButtons:hover{
+	-fx-background-color: #0000FF;
+}
+
+.cartEntryButtons {
+	-fx-background-radius: 5;
+    -fx-background-color: #0000FF;
+    -fx-text-fill: white;
+    -fx-font-weight : bold;
+    -fx-padding:5px
+}
+
+.cartEntryButtons:hover{
+	-fx-background-color: #3333FF;
+}
+
+.removalInteractionButtons {
+    -fx-background-radius: 5;
+    -fx-background-color: #FF6666;
+    -fx-text-fill: white;
+    -fx-font-weight : bold;
+}
+
+.removalInteractionButtons:hover{
+	-fx-background-color: #FF0000;
+}
+
+#editProductButton{
+	-fx-background-radius: 5;
+    -fx-background-color: #66CC66;
+    -fx-text-fill: white;
+    -fx-font-weight : bold;
+}
+
+#editProductButton:hover{
+	-fx-background-color: #559955
+}
+
+.addProductButton{
+	-fx-background-radius: 5;
+    -fx-background-color: rgba(200, 200, 200, 0.15);
+    -fx-text-fill: white;
+    -fx-font-weight : bold;
+    -fx-padding:5px
+}
+
+.addProductButton:hover{
+	-fx-background-color: rgba(100, 100, 100, 0.2);
+}
+
+#searchButton{
+	-fx-background-radius: 5;
+    -fx-background-color: #66CC66;
+    -fx-text-fill: white;
+    -fx-font-weight : bold;
+}
+
+#searchButton:hover{
+	-fx-background-color: #559955
+}
+
+.dialog-pane{
+	-fx-background-color: #f0f0ff;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 20;
+}
+
+.header-panel{
+	 -fx-background-color: transparent;
+    -fx-text-fill: #2a2a2a;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#selectImageButton{
+	
+}
+
+#seeProdctDetails {
+    -fx-background-color: #FFA500;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-font-weight : bold;
+}
+
+#seeProdctDetails:hover {
+    -fx-background-color: #E59400;
+}
+	
